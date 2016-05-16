@@ -30,6 +30,24 @@ body{
   border-radius: 6px;
   border: 1px solid #AAAAAA;
   margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+.container-caption-item_dropDown-list{
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  text-align: left;
+  margin: 0;
+  padding-left: 1%;
+  width: 100%;
+}
+.container-caption-item_dropDown-list li{
+   list-style: none;
+   background-color: #EEEEEE;
+}
+.container-caption-item_dropDown-list li:hover{
+   background-color: #ffffff;
 }
 .container-caption-item{
   list-style: none;
@@ -46,12 +64,9 @@ body{
     border-top: 1px solid #AAAAAA;
     border-left: 1px solid #AAAAAA;
     border-right: 1px solid #AAAAAA;
+    cursor: pointer;
 }
-.container-caption-item a{
-  display: block;
-  color: black;
-  text-decoration: none;
-}
+
 .container-caption-text{
   text-align: left;
   padding: 10px;
